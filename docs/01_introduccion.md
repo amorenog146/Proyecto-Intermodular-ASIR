@@ -30,3 +30,11 @@ Mejorar y organizar la infraestructura informática de la PYME para facilitar su
 - Mejorar la seguridad y la disponibilidad de la infraestructura informática para reducir los riesgos y favorecer la continuidad de los servicios de la empresa.
 
 - Establecer una matriz de trazabilidad que permita relacionar los requisitos del proyecto con las soluciones implementadas y verificar su cumplimiento.
+
+## 1.5. Interesados
+| Interesado | Relación con el proyecto | Necesidad principal |
+|---|---|---|
+| Empleados | |Disponer de una infraestructura y unos servicios informáticos más fáciles de administrar y utilizar.|
+| Clientes | |Recibir servicios informáticos adecuados, disponibles y con una atención eficaz.|
+| Responsable del proyecto | |Planificar, implementar y supervisar las mejoras de la infraestructura y comprobar que se cumplen los requisitos del proyecto.|
+|---|---|---|
