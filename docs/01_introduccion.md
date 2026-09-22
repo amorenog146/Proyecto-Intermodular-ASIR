@@ -20,3 +20,5 @@ Mejorar y organizar la infraestructura informática de la PYME para facilitar su
 ### Objetivos específicos
 
 - Mejorar la administración de los sistemas operativos utilizados por la empresa, facilitando su gestión y mantenimiento.
+  
+- Mejorar la gestión y administración de las bases de datos utilizadas por la empresa, facilitando su mantenimiento y disponibilidad.
