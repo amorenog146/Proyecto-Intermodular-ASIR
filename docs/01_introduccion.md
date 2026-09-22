@@ -38,3 +38,6 @@ Mejorar y organizar la infraestructura informática de la PYME para facilitar su
 | Clientes | |Recibir servicios informáticos adecuados, disponibles y con una atención eficaz.|
 | Responsable del proyecto | |Planificar, implementar y supervisar las mejoras de la infraestructura y comprobar que se cumplen los requisitos del proyecto.|
 |---|---|---|
+
+
+Los interesados identificados se tendrán en cuenta durante el desarrollo y la planificación del proyecto.
