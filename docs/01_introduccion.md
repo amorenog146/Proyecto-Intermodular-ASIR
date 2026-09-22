@@ -11,3 +11,8 @@ Actualmente, la empresa considera necesario mejorar su infraestructura y su comp
 ## 1.3. Problemática o necesidad
 
 La PYME de servicios de mantenimiento y soporte informático no dispone de personal con conocimientos especializados suficientes para administrar determinadas áreas de su infraestructura informática. Como consecuencia, la administración de la infraestructura y de los servicios resulta difícil para el personal disponible y la empresa no puede ofrecer todos los servicios que podría incorporar a su actividad.
+
+## 1.4. Objetivos
+### Objetivo general
+
+Mejorar y organizar la infraestructura informática de la PYME para facilitar su administración y ampliar su capacidad para ofrecer servicios informáticos.
