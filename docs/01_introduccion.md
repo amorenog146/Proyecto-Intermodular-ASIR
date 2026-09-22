@@ -1,6 +1,7 @@
 # Introducción
 
 ## 1.1. Título del reto
+Diseño y administración de una infraestructura informática para una PYME de servicios informáticos en Talavera de la Reina.
 
 ## 1.2. Contexto
 
