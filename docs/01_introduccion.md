@@ -26,3 +26,5 @@ Mejorar y organizar la infraestructura informática de la PYME para facilitar su
 - Facilitar la implantación y administración de aplicaciones web que permitan ampliar y mejorar los servicios ofrecidos por la empresa.
 
 - Mejorar la gestión de los servicios de red e Internet de la empresa para facilitar su administración y garantizar un funcionamiento adecuado de los servicios informáticos.
+
+- Mejorar la seguridad y la disponibilidad de la infraestructura informática para reducir los riesgos y favorecer la continuidad de los servicios de la empresa.
