@@ -16,3 +16,7 @@ La PYME de servicios de mantenimiento y soporte informático no dispone de perso
 ### Objetivo general
 
 Mejorar y organizar la infraestructura informática de la PYME para facilitar su administración y ampliar su capacidad para ofrecer servicios informáticos.
+
+### Objetivos específicos
+
+- Mejorar la administración de los sistemas operativos utilizados por la empresa, facilitando su gestión y mantenimiento.
