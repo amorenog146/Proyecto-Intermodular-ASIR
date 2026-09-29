@@ -18,7 +18,7 @@ Esta mejora permitirá establecer una base más adecuada para el desarrollo del 
 
 ## 1.3. Problemática o necesidad
 
-La PYME de servicios de mantenimiento y soporte informático no dispone de personal con conocimientos especializados suficientes para administrar determinadas áreas de su infraestructura informática. Como consecuencia, la administración de la infraestructura y de los servicios resulta difícil para el personal disponible y la empresa no puede ofrecer todos los servicios que podría incorporar a su actividad.
+La asesoría informática no dispone de personal con conocimientos especializados suficientes para administrar determinadas áreas de su infraestructura informática. Como consecuencia, la administración de los sistemas y servicios resulta difícil para el personal disponible y la empresa encuentra dificultades para ampliar y gestionar adecuadamente los servicios informáticos que ofrece a sus clientes.
 
 ## 1.4. Objetivos
 ### Objetivo general
