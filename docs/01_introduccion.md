@@ -90,3 +90,12 @@ El proyecto contemplará el diseño e implementación de una base de datos para 
 2. Diseñar e implementar la base de datos para organizar dicha información.
 3. Comprobar que la base de datos funciona correctamente y que permite gestionar la información necesaria.
 
+## 1.8. Implantación de Aplicaciones Web (IAW)
+
+### Problemática
+
+La asesoría no dispone actualmente de una aplicación web que permita gestionar de forma organizada la información relacionada con sus clientes y los servicios que ofrece.
+
+### Objetivo
+
+Diseñar e implementar una aplicación web que permita gestionar de forma organizada la información relacionada con los clientes y los servicios ofrecidos por la asesoría.
