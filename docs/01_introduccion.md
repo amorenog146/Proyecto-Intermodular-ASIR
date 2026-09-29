@@ -4,7 +4,13 @@
 Diseño y administración de una infraestructura informática para una PYME de servicios informáticos en Talavera de la Reina.
 
 ## 1.2. Contexto
-La empresa objeto de este proyecto es una PYME de tamaño mediano situada en Talavera de la Reina y dedicada al mantenimiento y soporte informático. Desarrolla su actividad en un sector competitivo relacionado con la informática, por lo que necesita disponer de una infraestructura informática adecuada que le permita desarrollar sus servicios de forma eficiente y ampliar su capacidad de ofrecer nuevos servicios.
+La empresa objeto de este proyecto es una asesoría informática situada en Talavera de la Reina que ofrece a pequeñas y medianas empresas servicios de mantenimiento, administración de sistemas, bases de datos, redes, aplicaciones web y soporte técnico.
+
+La empresa desarrolla su actividad en un sector competitivo, por lo que necesita disponer de una infraestructura informática adecuada que le permita gestionar sus propios sistemas y prestar sus servicios de forma organizada y eficiente.
+
+Actualmente, la empresa considera necesario mejorar su infraestructura y su composición para adaptarse a las necesidades de su actividad y poder prestar sus servicios de una forma más organizada y adecuada.
+
+Esta mejora permitirá establecer una base más adecuada para el desarrollo del proyecto.
 
 Actualmente, la empresa considera necesario mejorar su infraestructura y su composición para adaptarse a las necesidades de su actividad y poder prestar sus servicios de una forma más organizada y adecuada.
 
