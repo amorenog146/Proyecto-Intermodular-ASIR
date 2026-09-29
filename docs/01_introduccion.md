@@ -27,15 +27,15 @@ Mejorar y organizar la infraestructura informática de la asesoría para facilit
 
 ### Objetivos específicos
 
-- Mejorar la administración de los sistemas operativos utilizados por la empresa, facilitando su gestión y mantenimiento.
-  
-- Mejorar la gestión y administración de las bases de datos utilizadas por la empresa, facilitando su mantenimiento y disponibilidad.
+- Mejorar la administración de los sistemas operativos utilizados por la asesoría, facilitando su gestión y mantenimiento.
 
-- Facilitar la implantación y administración de aplicaciones web que permitan ampliar y mejorar los servicios ofrecidos por la empresa.
+- Diseñar y gestionar una base de datos que permita organizar la información necesaria para la actividad de la asesoría.
 
-- Mejorar la gestión de los servicios de red e Internet de la empresa para facilitar su administración y garantizar un funcionamiento adecuado de los servicios informáticos.
+- Facilitar la implantación y administración de aplicaciones web que permitan gestionar información y mejorar los servicios ofrecidos por la asesoría.
 
-- Mejorar la seguridad y la disponibilidad de la infraestructura informática para reducir los riesgos y favorecer la continuidad de los servicios de la empresa.
+- Mejorar la gestión de los servicios de red e Internet necesarios para el funcionamiento de la asesoría y la prestación de sus servicios.
+
+- Mejorar la seguridad y la disponibilidad de la infraestructura informática para proteger la información y favorecer la continuidad de los servicios.
 
 - Establecer una matriz de trazabilidad que permita relacionar los requisitos del proyecto con las soluciones implementadas y verificar su cumplimiento.
 
