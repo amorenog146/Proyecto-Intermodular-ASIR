@@ -23,3 +23,14 @@ El proyecto deberá permitir administrar y mantener la base de datos para garant
 
 ### ASGBD-03
 El proyecto deberá permitir comprobar que la base de datos funciona correctamente y que permite gestionar la información necesaria para la actividad de la asesoría.
+
+## 3. Implantación de Aplicaciones Web (IAW)
+
+### IAW-01
+El proyecto deberá permitir diseñar e implementar una aplicación web para gestionar de forma organizada la información de los clientes y los servicios ofrecidos por la asesoría.
+
+### IAW-02
+El proyecto deberá permitir consultar y administrar mediante la aplicación web la información de los clientes y los servicios ofrecidos por la asesoría.
+
+### IAW-03
+El proyecto deberá permitir comprobar que la aplicación web funciona correctamente y que la información gestionada puede consultarse y administrarse de forma adecuada.
