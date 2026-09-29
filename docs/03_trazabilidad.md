@@ -41,3 +41,11 @@ La matriz de trazabilidad permite relacionar las necesidades de la asesoría con
 | Necesidad de identificar los principales riesgos de seguridad que pueden afectar a la infraestructura informática de la asesoría. | SEG-01 | Identificación y análisis de los principales riesgos de seguridad de la infraestructura informática. | Comprobar que los riesgos principales han sido identificados y documentados. |
 | Necesidad de proteger los sistemas y servicios informáticos frente a posibles fallos o incidencias. | SEG-02 | Aplicación de medidas de seguridad y disponibilidad sobre los sistemas y servicios de la asesoría. | Comprobar que las medidas implementadas funcionan correctamente y protegen los sistemas y servicios previstos. |
 | Necesidad de comprobar el funcionamiento de las medidas de seguridad y disponibilidad ante posibles incidencias. | SEG-03 | Realización de pruebas para verificar el funcionamiento de las medidas de seguridad y disponibilidad implementadas. | Comprobar que las medidas responden correctamente ante las incidencias previstas y permiten mantener los servicios disponibles. |
+
+## 6. Matriz de Trazabilidad de Requisitos
+
+| Necesidad | Requisito | Solución | Comprobación |
+|---|---|---|---|
+| Necesidad de identificar y definir los requisitos necesarios a partir de las necesidades detectadas en la asesoría. | TRA-01 | Identificación y definición de los requisitos del proyecto a partir de las necesidades detectadas. | Comprobar que las necesidades identificadas tienen asociados los requisitos correspondientes. |
+| Necesidad de relacionar cada requisito con las soluciones y tareas desarrolladas en los diferentes módulos del proyecto. | TRA-02 | Relación de cada requisito con las soluciones y tareas correspondientes de los diferentes módulos. | Comprobar que cada requisito definido tiene asociadas las soluciones y tareas que permiten cumplirlo. |
+| Necesidad de comprobar que las necesidades identificadas quedan cubiertas por las soluciones implementadas. | TRA-03 | Comprobación de la trazabilidad entre las necesidades, requisitos, soluciones y tareas desarrolladas. | Comprobar que todas las necesidades identificadas tienen una solución implementada y una comprobación asociada. |
