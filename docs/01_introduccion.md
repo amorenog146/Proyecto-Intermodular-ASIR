@@ -130,3 +130,12 @@ El proyecto contemplará la configuración de la infraestructura de red y de los
 2. Configurar los servicios de red e Internet necesarios para la comunicación y el funcionamiento de los servicios informáticos.
 3. Comprobar el funcionamiento de la red y de los servicios configurados, verificando la comunicación entre los equipos.
 
+## 1.10. Seguridad y Alta Disponibilidad
+
+### Problemática
+
+La asesoría necesita mejorar la seguridad de su infraestructura informática y disponer de medidas que permitan mantener sus servicios disponibles ante posibles fallos o incidencias.
+
+### Objetivo
+
+Mejorar la seguridad de la infraestructura informática de la asesoría y establecer medidas que permitan mantener la disponibilidad de sus servicios ante posibles fallos o incidencias.
