@@ -57,3 +57,10 @@ Actualizar y mejorar la gestión de los sistemas operativos de los equipos infor
 ### Alcance
 
 El proyecto contemplará la actualización de los sistemas operativos de los equipos informáticos de la empresa y la mejora de su administración y mantenimiento.
+
+### Tareas
+
+1. Identificar los equipos que necesitan una actualización de su sistema operativo.
+2. Planificar la actualización de los sistemas operativos de los equipos seleccionados.
+3. Comprobar posteriormente que los equipos funcionan correctamente y que pueden seguir utilizándose para la actividad de la empresa.
+
