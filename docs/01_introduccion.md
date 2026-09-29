@@ -163,3 +163,10 @@ Establecer una matriz de trazabilidad que permita relacionar las necesidades y r
 ### Alcance
 
 El proyecto contemplará la elaboración de una matriz de trazabilidad que relacione las necesidades y requisitos definidos con las soluciones y tareas desarrolladas en los diferentes módulos del proyecto.
+
+### Tareas
+
+1. Identificar y definir los requisitos del proyecto a partir de las necesidades de la asesoría.
+2. Relacionar cada requisito con las soluciones y tareas desarrolladas en los diferentes módulos.
+3. Comprobar la trazabilidad de los requisitos para verificar que las necesidades planteadas quedan cubiertas por las soluciones implementadas.
+
