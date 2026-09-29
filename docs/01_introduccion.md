@@ -103,3 +103,9 @@ Diseñar e implementar una aplicación web que permita gestionar de forma organi
 ### Alcance
 
 El proyecto contemplará el diseño e implementación de una aplicación web para gestionar la información de los clientes y los servicios ofrecidos por la asesoría, facilitando su consulta y administración.
+
+### Tareas
+
+1. Identificar la información que debe gestionar la aplicación web, como clientes y servicios.
+2. Diseñar e implementar la aplicación web para permitir la gestión de dicha información.
+3. Comprobar el funcionamiento de la aplicación web y verificar que permite consultar y administrar correctamente la información.
