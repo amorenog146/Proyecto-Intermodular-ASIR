@@ -99,3 +99,7 @@ La asesoría no dispone actualmente de una aplicación web que permita gestionar
 ### Objetivo
 
 Diseñar e implementar una aplicación web que permita gestionar de forma organizada la información relacionada con los clientes y los servicios ofrecidos por la asesoría.
+
+### Alcance
+
+El proyecto contemplará el diseño e implementación de una aplicación web para gestionar la información de los clientes y los servicios ofrecidos por la asesoría, facilitando su consulta y administración.
