@@ -73,3 +73,7 @@ La empresa no dispone actualmente de una base de datos que permita organizar y g
 ### Objetivo
 
 Diseñar e implementar una base de datos que permita organizar y gestionar de forma centralizada la información necesaria para la actividad de la empresa.
+
+### Alcance
+
+El proyecto contemplará el diseño e implementación de una base de datos para organizar y gestionar la información necesaria para la actividad de la empresa, así como su administración y mantenimiento.
