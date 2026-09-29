@@ -53,3 +53,7 @@ La empresa no dispone de sistemas operativos actualizados en los equipos inform�
 ### Objetivo
 
 Actualizar y mejorar la gestión de los sistemas operativos de los equipos informáticos de la empresa para facilitar su administración y mantenimiento.
+
+### Alcance
+
+El proyecto contemplará la actualización de los sistemas operativos de los equipos informáticos de la empresa y la mejora de su administración y mantenimiento.
