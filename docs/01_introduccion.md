@@ -123,3 +123,10 @@ Diseñar y configurar los servicios de red e Internet necesarios para facilitar 
 ### Alcance
 
 El proyecto contemplará la configuración de la infraestructura de red y de los servicios de Internet necesarios para la comunicación entre los equipos de la asesoría y para el funcionamiento de sus servicios informáticos.
+
+### Tareas
+
+1. Diseñar la infraestructura de red necesaria para la asesoría.
+2. Configurar los servicios de red e Internet necesarios para la comunicación y el funcionamiento de los servicios informáticos.
+3. Comprobar el funcionamiento de la red y de los servicios configurados, verificando la comunicación entre los equipos.
+
