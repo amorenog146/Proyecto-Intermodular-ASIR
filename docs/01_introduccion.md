@@ -23,7 +23,7 @@ La asesoría informática no dispone de personal con conocimientos especializado
 ## 1.4. Objetivos
 ### Objetivo general
 
-Mejorar y organizar la infraestructura informática de la PYME para facilitar su administración y ampliar su capacidad para ofrecer servicios informáticos.
+Mejorar y organizar la infraestructura informática de la asesoría para facilitar su administración y mantenimiento y ampliar su capacidad para ofrecer servicios informáticos a sus clientes.
 
 ### Objetivos específicos
 
