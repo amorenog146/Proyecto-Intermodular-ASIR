@@ -8,6 +8,8 @@ La empresa objeto de este proyecto es una PYME de tamaño mediano situada en Tal
 
 Actualmente, la empresa considera necesario mejorar su infraestructura y su composición para adaptarse a las necesidades de su actividad y poder prestar sus servicios de una forma más organizada y adecuada.
 
+Esta mejora permitirá establecer una base más adecuada para el desarrollo del proyecto.
+
 ## 1.3. Problemática o necesidad
 
 La PYME de servicios de mantenimiento y soporte informático no dispone de personal con conocimientos especializados suficientes para administrar determinadas áreas de su infraestructura informática. Como consecuencia, la administración de la infraestructura y de los servicios resulta difícil para el personal disponible y la empresa no puede ofrecer todos los servicios que podría incorporar a su actividad.
