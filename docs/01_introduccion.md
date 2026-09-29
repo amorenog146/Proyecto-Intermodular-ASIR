@@ -150,3 +150,12 @@ El proyecto contemplará la aplicación de medidas de seguridad y disponibilidad
 2. Aplicar medidas de seguridad y disponibilidad para proteger los sistemas y servicios.
 3. Comprobar el funcionamiento de las medidas implementadas y verificar que los servicios pueden mantenerse disponibles ante posibles incidencias.
 
+## 1.11. Matriz de Trazabilidad de Requisitos
+
+### Problemática
+
+La asesoría necesita establecer una relación clara entre las necesidades identificadas, los requisitos del proyecto y las soluciones implementadas para poder comprobar que los objetivos planteados se cumplen.
+
+### Objetivo
+
+Establecer una matriz de trazabilidad que permita relacionar las necesidades y requisitos del proyecto con las soluciones y tareas desarrolladas, facilitando la comprobación de su cumplimiento.
