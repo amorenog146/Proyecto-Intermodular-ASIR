@@ -33,3 +33,11 @@ La matriz de trazabilidad permite relacionar las necesidades de la asesoría con
 | Necesidad de disponer de una infraestructura de red que facilite la comunicación entre los equipos y los servicios informáticos de la asesoría. | RED-01 | Diseño de la infraestructura de red necesaria para la asesoría. | Comprobar que la infraestructura diseñada permite la comunicación entre los equipos y el funcionamiento de los servicios previstos. |
 | Necesidad de configurar los servicios de red e Internet necesarios para la comunicación y el funcionamiento de los servicios informáticos. | RED-02 | Configuración de los servicios de red e Internet necesarios para la asesoría. | Comprobar que los servicios configurados permiten la comunicación entre los equipos y el funcionamiento de los servicios informáticos. |
 | Necesidad de comprobar el funcionamiento de la infraestructura de red y de los servicios configurados. | RED-03 | Realización de pruebas de conectividad y funcionamiento de los servicios de red. | Comprobar la comunicación entre los equipos y verificar que los servicios configurados funcionan correctamente. |
+
+## 5. Seguridad y Alta Disponibilidad
+
+| Necesidad | Requisito | Solución | Comprobación |
+|---|---|---|---|
+| Necesidad de identificar los principales riesgos de seguridad que pueden afectar a la infraestructura informática de la asesoría. | SEG-01 | Identificación y análisis de los principales riesgos de seguridad de la infraestructura informática. | Comprobar que los riesgos principales han sido identificados y documentados. |
+| Necesidad de proteger los sistemas y servicios informáticos frente a posibles fallos o incidencias. | SEG-02 | Aplicación de medidas de seguridad y disponibilidad sobre los sistemas y servicios de la asesoría. | Comprobar que las medidas implementadas funcionan correctamente y protegen los sistemas y servicios previstos. |
+| Necesidad de comprobar el funcionamiento de las medidas de seguridad y disponibilidad ante posibles incidencias. | SEG-03 | Realización de pruebas para verificar el funcionamiento de las medidas de seguridad y disponibilidad implementadas. | Comprobar que las medidas responden correctamente ante las incidencias previstas y permiten mantener los servicios disponibles. |
