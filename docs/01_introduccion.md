@@ -43,3 +43,13 @@ Mejorar y organizar la infraestructura informática de la PYME para facilitar su
 
 
 Los interesados identificados se tendrán en cuenta durante el desarrollo y la planificación del proyecto.
+
+## 1.6. Administración de Sistemas Operativos (ASO)
+
+### Problemática
+
+La empresa no dispone de sistemas operativos actualizados en los equipos informáticos, por lo que necesita actualizar dichos sistemas para mantener los equipos en unas condiciones adecuadas para el desarrollo de su actividad.
+
+### Objetivo
+
+Actualizar y mejorar la gestión de los sistemas operativos de los equipos informáticos de la empresa para facilitar su administración y mantenimiento.
