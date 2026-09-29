@@ -56,3 +56,14 @@ El proyecto deberá permitir aplicar medidas de seguridad y disponibilidad desti
 
 ### SEG-03
 El proyecto deberá permitir comprobar el funcionamiento de las medidas de seguridad y disponibilidad implementadas y verificar su eficacia ante posibles incidencias.
+
+## 6. Matriz de Trazabilidad de Requisitos
+
+### TRA-01
+El proyecto deberá permitir identificar y definir los requisitos necesarios a partir de las necesidades detectadas en la asesoría.
+
+### TRA-02
+El proyecto deberá permitir relacionar cada requisito definido con las soluciones y tareas desarrolladas en los diferentes módulos del proyecto.
+
+### TRA-03
+El proyecto deberá permitir comprobar la trazabilidad de los requisitos y verificar que las necesidades identificadas quedan cubiertas por las soluciones implementadas.
