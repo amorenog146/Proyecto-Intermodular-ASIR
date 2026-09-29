@@ -139,3 +139,7 @@ La asesoría necesita mejorar la seguridad de su infraestructura informática y 
 ### Objetivo
 
 Mejorar la seguridad de la infraestructura informática de la asesoría y establecer medidas que permitan mantener la disponibilidad de sus servicios ante posibles fallos o incidencias.
+
+### Alcance
+
+El proyecto contemplará la aplicación de medidas de seguridad y disponibilidad sobre la infraestructura informática de la asesoría para proteger sus sistemas y servicios y reducir el impacto de posibles fallos o incidencias.
