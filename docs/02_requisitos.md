@@ -34,3 +34,14 @@ El proyecto deberá permitir consultar y administrar mediante la aplicación web
 
 ### IAW-03
 El proyecto deberá permitir comprobar que la aplicación web funciona correctamente y que la información gestionada puede consultarse y administrarse de forma adecuada.
+
+## 4. Servicios de Red e Internet
+
+### RED-01
+El proyecto deberá permitir diseñar una infraestructura de red que facilite la comunicación entre los equipos de la asesoría y el funcionamiento de sus servicios informáticos.
+
+### RED-02
+El proyecto deberá permitir configurar los servicios de red e Internet necesarios para garantizar la comunicación entre los equipos y el funcionamiento de los servicios informáticos de la asesoría.
+
+### RED-03
+El proyecto deberá permitir comprobar el funcionamiento de la infraestructura de red y de los servicios configurados, verificando la comunicación entre los equipos de la asesoría.
