@@ -119,3 +119,7 @@ La asesoría necesita disponer de una infraestructura de red y de servicios de I
 ### Objetivo
 
 Diseñar y configurar los servicios de red e Internet necesarios para facilitar la comunicación entre los equipos de la asesoría y garantizar el funcionamiento adecuado de sus servicios informáticos.
+
+### Alcance
+
+El proyecto contemplará la configuración de la infraestructura de red y de los servicios de Internet necesarios para la comunicación entre los equipos de la asesoría y para el funcionamiento de sus servicios informáticos.
