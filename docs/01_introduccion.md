@@ -109,3 +109,13 @@ El proyecto contemplará el diseño e implementación de una aplicación web par
 1. Identificar la información que debe gestionar la aplicación web, como clientes y servicios.
 2. Diseñar e implementar la aplicación web para permitir la gestión de dicha información.
 3. Comprobar el funcionamiento de la aplicación web y verificar que permite consultar y administrar correctamente la información.
+
+## 1.9. Servicios de Red e Internet
+
+### Problemática
+
+La asesoría necesita disponer de una infraestructura de red y de servicios de Internet adecuadamente configurados para permitir la comunicación entre sus equipos y el funcionamiento de los servicios informáticos que utiliza y ofrece.
+
+### Objetivo
+
+Diseñar y configurar los servicios de red e Internet necesarios para facilitar la comunicación entre los equipos de la asesoría y garantizar el funcionamiento adecuado de sus servicios informáticos.
