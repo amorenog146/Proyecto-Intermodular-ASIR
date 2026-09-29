@@ -17,3 +17,11 @@ La matriz de trazabilidad permite relacionar las necesidades de la asesoría con
 | Necesidad de organizar y gestionar de forma centralizada la información necesaria para la actividad de la asesoría. | ASGBD-01 | Diseño e implementación de una base de datos para organizar y gestionar la información de la asesoría. | Comprobar que la base de datos se ha implementado correctamente y que permite almacenar y gestionar la información definida. |
 | Necesidad de mantener y administrar correctamente la base de datos durante la actividad de la asesoría. | ASGBD-02 | Administración y mantenimiento de la base de datos para garantizar una gestión adecuada de la información. | Comprobar que las tareas de administración y mantenimiento pueden realizarse correctamente sobre la base de datos. |
 | Necesidad de comprobar que la base de datos funciona correctamente y permite gestionar la información necesaria. | ASGBD-03 | Realización de pruebas sobre la base de datos para comprobar su funcionamiento y la gestión de la información. | Comprobar que las operaciones necesarias sobre la información se realizan correctamente. |
+
+## 3. Implantación de Aplicaciones Web (IAW)
+
+| Necesidad | Requisito | Solución | Comprobación |
+|---|---|---|---|
+| Necesidad de gestionar de forma organizada la información de los clientes y los servicios ofrecidos por la asesoría. | IAW-01 | Diseño e implementación de una aplicación web para gestionar la información de clientes y servicios. | Comprobar que la aplicación web se puede utilizar correctamente y que permite gestionar la información definida. |
+| Necesidad de consultar y administrar la información de los clientes y los servicios ofrecidos por la asesoría. | IAW-02 | Implementación de funciones de consulta y administración de clientes y servicios en la aplicación web. | Comprobar que se puede consultar y administrar correctamente la información de clientes y servicios. |
+| Necesidad de comprobar que la aplicación web funciona correctamente y que la información puede consultarse y administrarse adecuadamente. | IAW-03 | Realización de pruebas sobre las principales funciones de la aplicación web. | Comprobar que las funciones de consulta y administración funcionan correctamente. |
