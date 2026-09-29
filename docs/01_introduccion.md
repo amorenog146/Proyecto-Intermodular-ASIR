@@ -77,3 +77,10 @@ Diseñar e implementar una base de datos que permita organizar y gestionar de fo
 ### Alcance
 
 El proyecto contemplará el diseño e implementación de una base de datos para organizar y gestionar la información necesaria para la actividad de la empresa, así como su administración y mantenimiento.
+
+### Tareas
+
+1. Identificar la información que necesita gestionar la empresa.
+2. Diseñar e implementar la base de datos para organizar dicha información.
+3. Comprobar que la base de datos funciona correctamente y que permite gestionar la información necesaria.
+
