@@ -45,3 +45,14 @@ El proyecto deberá permitir configurar los servicios de red e Internet necesari
 
 ### RED-03
 El proyecto deberá permitir comprobar el funcionamiento de la infraestructura de red y de los servicios configurados, verificando la comunicación entre los equipos de la asesoría.
+
+## 5. Seguridad y Alta Disponibilidad
+
+### SEG-01
+El proyecto deberá identificar los principales riesgos de seguridad que puedan afectar a la infraestructura informática de la asesoría.
+
+### SEG-02
+El proyecto deberá permitir aplicar medidas de seguridad y disponibilidad destinadas a proteger los sistemas y servicios informáticos de la asesoría frente a posibles fallos o incidencias.
+
+### SEG-03
+El proyecto deberá permitir comprobar el funcionamiento de las medidas de seguridad y disponibilidad implementadas y verificar su eficacia ante posibles incidencias.
