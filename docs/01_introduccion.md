@@ -64,3 +64,12 @@ El proyecto contemplará la actualización de los sistemas operativos de los equ
 2. Planificar la actualización de los sistemas operativos de los equipos seleccionados.
 3. Comprobar posteriormente que los equipos funcionan correctamente y que pueden seguir utilizándose para la actividad de la empresa.
 
+## 1.7. Administración de Sistemas Gestores de Bases de Datos (ASGBD)
+
+### Problemática
+
+La empresa no dispone actualmente de una base de datos que permita organizar y gestionar de forma centralizada la información necesaria para el desarrollo de su actividad.
+
+### Objetivo
+
+Diseñar e implementar una base de datos que permita organizar y gestionar de forma centralizada la información necesaria para la actividad de la empresa.
