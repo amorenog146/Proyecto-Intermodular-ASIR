@@ -42,10 +42,10 @@ Mejorar y organizar la infraestructura informática de la asesoría para facilit
 ## 1.5. Interesados
 | Interesado | Relación con el proyecto | Necesidad principal |
 |---|---|---|
-| Empleados | |Disponer de una infraestructura y unos servicios informáticos más fáciles de administrar y utilizar.|
-| Clientes | |Recibir servicios informáticos adecuados, disponibles y con una atención eficaz.|
-| Responsable del proyecto | |Planificar, implementar y supervisar las mejoras de la infraestructura y comprobar que se cumplen los requisitos del proyecto.|
-|---|---|---|
+| Empleados | Utilizan y administran la infraestructura y los servicios informáticos de la asesoría. | Disponer de una infraestructura y unos servicios informáticos más fáciles de administrar y utilizar. |
+| Clientes | Reciben los servicios informáticos proporcionados por la asesoría. | Recibir servicios informáticos adecuados, disponibles y con una atención eficaz. |
+| Responsable del proyecto | Planifica, coordina y supervisa el desarrollo del proyecto. | Planificar, implementar y supervisar las mejoras de la infraestructura y comprobar que se cumplen los requisitos del proyecto. |
+| Dirección | Toma decisiones sobre la organización y los recursos de la asesoría. | Mejorar la capacidad de la empresa para gestionar sus recursos y ofrecer servicios informáticos a sus clientes. |
 
 
 Los interesados identificados se tendrán en cuenta durante el desarrollo y la planificación del proyecto.
