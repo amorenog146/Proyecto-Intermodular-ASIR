@@ -1,7 +1,7 @@
 # Introducción
 
 ## 1.1. Título del reto
-Diseño y administración de una infraestructura informática para una PYME de servicios informáticos en Talavera de la Reina.
+Diseño y administración de una infraestructura informática para una PYME de servicios informáticos (siendo una asesoría informática) en Talavera de la Reina.
 
 ## 1.2. Contexto
 La empresa objeto de este proyecto es una asesoría informática situada en Talavera de la Reina que ofrece a pequeñas y medianas empresas servicios de mantenimiento, administración de sistemas, bases de datos, redes, aplicaciones web y soporte técnico.
@@ -159,3 +159,7 @@ La asesoría necesita establecer una relación clara entre las necesidades ident
 ### Objetivo
 
 Establecer una matriz de trazabilidad que permita relacionar las necesidades y requisitos del proyecto con las soluciones y tareas desarrolladas, facilitando la comprobación de su cumplimiento.
+
+### Alcance
+
+El proyecto contemplará la elaboración de una matriz de trazabilidad que relacione las necesidades y requisitos definidos con las soluciones y tareas desarrolladas en los diferentes módulos del proyecto.
