@@ -143,3 +143,10 @@ Mejorar la seguridad de la infraestructura informática de la asesoría y establ
 ### Alcance
 
 El proyecto contemplará la aplicación de medidas de seguridad y disponibilidad sobre la infraestructura informática de la asesoría para proteger sus sistemas y servicios y reducir el impacto de posibles fallos o incidencias.
+
+### Tareas
+
+1. Identificar los principales riesgos de seguridad que pueden afectar a la infraestructura informática de la asesoría.
+2. Aplicar medidas de seguridad y disponibilidad para proteger los sistemas y servicios.
+3. Comprobar el funcionamiento de las medidas implementadas y verificar que los servicios pueden mantenerse disponibles ante posibles incidencias.
+
