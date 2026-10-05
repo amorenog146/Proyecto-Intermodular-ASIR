@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Solución Trazabilidad - Proyecto Intermodular ASIR</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Proyecto Intermodular ASIR</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../01_introduccion/" class="nav-link">Introducción</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../02_requisitos/" class="nav-link">Requisitos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../04_solucion_aso/" class="nav-link">Solución ASO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../05_solucion_asgbd/" class="nav-link">Solución ASGBD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../06_solucion_iaw/" class="nav-link">Solución IAW</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../07_solucion_red/" class="nav-link">Solución RED</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../08_solucion_seguridad/" class="nav-link">Solución Seguridad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Solución Trazabilidad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../10_plan_implementacion/" class="nav-link">Plan de Implementación</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../08_solucion_seguridad/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../10_plan_implementacion/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#solucion-de-la-matriz-de-trazabilidad-de-requisitos" class="nav-link">Solución de la Matriz de Trazabilidad de Requisitos</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#1-descripcion-de-la-solucion" class="nav-link">1. Descripción de la solución</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#2-organizacion-de-la-trazabilidad" class="nav-link">2. Organización de la trazabilidad</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#3-trazabilidad-de-administracion-de-sistemas-operativos-aso" class="nav-link">3. Trazabilidad de Administración de Sistemas Operativos (ASO)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#4-trazabilidad-de-administracion-de-sistemas-gestores-de-bases-de-datos-asgbd" class="nav-link">4. Trazabilidad de Administración de Sistemas Gestores de Bases de Datos (ASGBD)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#5-trazabilidad-de-implantacion-de-aplicaciones-web-iaw" class="nav-link">5. Trazabilidad de Implantación de Aplicaciones Web (IAW)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#6-trazabilidad-de-servicios-de-red-e-internet" class="nav-link">6. Trazabilidad de Servicios de Red e Internet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#7-trazabilidad-de-seguridad-y-alta-disponibilidad" class="nav-link">7. Trazabilidad de Seguridad y Alta Disponibilidad</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#8-trazabilidad-de-los-requisitos-del-proyecto" class="nav-link">8. Trazabilidad de los Requisitos del Proyecto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#9-conclusion" class="nav-link">9. Conclusión</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="solucion-de-la-matriz-de-trazabilidad-de-requisitos">Solución de la Matriz de Trazabilidad de Requisitos</h1>
+<h2 id="1-descripcion-de-la-solucion">1. Descripción de la solución</h2>
+<p>La solución propuesta consiste en utilizar una matriz de trazabilidad para relacionar las necesidades de la asesoría con los requisitos definidos, las soluciones desarrolladas y las comprobaciones realizadas durante el proyecto.</p>
+<p>La matriz permitirá realizar un seguimiento de cada requisito desde su definición hasta su implementación, facilitando la comprobación de que las necesidades identificadas quedan cubiertas.</p>
+<p>La trazabilidad se aplicará a los diferentes módulos del proyecto: Administración de Sistemas Operativos (ASO), Administración de Sistemas Gestores de Bases de Datos (ASGBD), Implantación de Aplicaciones Web (IAW), Servicios de Red e Internet y Seguridad y Alta Disponibilidad.</p>
+<h2 id="2-organizacion-de-la-trazabilidad">2. Organización de la trazabilidad</h2>
+<p>La matriz de trazabilidad se organizará relacionando cada requisito con la solución que permite cumplirlo y con las comprobaciones que se realizarán para verificar su cumplimiento.</p>
+<p>Para cada requisito se indicará el módulo al que pertenece, la solución implementada y la comprobación asociada.</p>
+<p>La matriz permitirá identificar fácilmente qué requisitos han sido implementados y comprobar que todos ellos han sido considerados durante el desarrollo del proyecto.</p>
+<h2 id="3-trazabilidad-de-administracion-de-sistemas-operativos-aso">3. Trazabilidad de Administración de Sistemas Operativos (ASO)</h2>
+<table>
+<thead>
+<tr>
+<th>Requisito</th>
+<th>Solución implementada</th>
+<th>Comprobación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASO-01</td>
+<td>Actualización de los equipos PC-01 a PC-05 a Windows 11 Pro y comprobación posterior de su funcionamiento.</td>
+<td>Comprobar que los equipos se actualizan correctamente, se inician y permiten utilizar sus aplicaciones principales.</td>
+</tr>
+<tr>
+<td>ASO-02</td>
+<td>Establecimiento de un procedimiento periódico de mantenimiento para los 15 equipos de la asesoría.</td>
+<td>Comprobar periódicamente las actualizaciones, el almacenamiento, el funcionamiento general y las aplicaciones necesarias.</td>
+</tr>
+<tr>
+<td>ASO-03</td>
+<td>Identificación de los equipos que necesitan actualización y planificación de la actuación correspondiente.</td>
+<td>Revisar el estado de cada equipo y verificar que PC-01 a PC-05 están identificados como equipos pendientes de actualización.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-trazabilidad-de-administracion-de-sistemas-gestores-de-bases-de-datos-asgbd">4. Trazabilidad de Administración de Sistemas Gestores de Bases de Datos (ASGBD)</h2>
+<table>
+<thead>
+<tr>
+<th>Requisito</th>
+<th>Solución implementada</th>
+<th>Comprobación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASGBD-01</td>
+<td>Diseño e implementación de una base de datos MySQL con las entidades Clientes, Empleados, Servicios, Incidencias y Proyectos.</td>
+<td>Comprobar que la base de datos contiene las entidades necesarias y que la información puede almacenarse y gestionarse correctamente.</td>
+</tr>
+<tr>
+<td>ASGBD-02</td>
+<td>Establecimiento de tareas de administración y mantenimiento, incluyendo copias de seguridad y revisión de usuarios y permisos.</td>
+<td>Comprobar periódicamente el estado de la base de datos, los permisos de acceso y la realización de copias de seguridad.</td>
+</tr>
+<tr>
+<td>ASGBD-03</td>
+<td>Realización de pruebas de inserción, consulta, modificación, eliminación y comprobación de las relaciones entre las entidades.</td>
+<td>Verificar que las operaciones sobre los datos funcionan correctamente y que las relaciones entre las entidades se mantienen.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-trazabilidad-de-implantacion-de-aplicaciones-web-iaw">5. Trazabilidad de Implantación de Aplicaciones Web (IAW)</h2>
+<table>
+<thead>
+<tr>
+<th>Requisito</th>
+<th>Solución implementada</th>
+<th>Comprobación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IAW-01</td>
+<td>Diseño e implementación de una aplicación web interna desarrollada con HTML, CSS y PHP, conectada a la base de datos MySQL.</td>
+<td>Comprobar que la aplicación permite gestionar la información de clientes y servicios.</td>
+</tr>
+<tr>
+<td>IAW-02</td>
+<td>Implementación de funcionalidades para consultar, añadir, modificar y eliminar información de clientes, servicios, incidencias y proyectos.</td>
+<td>Verificar que los usuarios autorizados pueden consultar y administrar correctamente la información mediante la aplicación.</td>
+</tr>
+<tr>
+<td>IAW-03</td>
+<td>Realización de pruebas sobre las principales funcionalidades de la aplicación y su conexión con la base de datos.</td>
+<td>Comprobar que los cambios realizados desde la aplicación se almacenan correctamente y que la información puede consultarse y administrarse sin errores.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-trazabilidad-de-servicios-de-red-e-internet">6. Trazabilidad de Servicios de Red e Internet</h2>
+<table>
+<thead>
+<tr>
+<th>Requisito</th>
+<th>Solución implementada</th>
+<th>Comprobación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RED-01</td>
+<td>Diseño de una red local <code>192.168.1.0/24</code> para conectar los 15 equipos de la asesoría mediante un switch y un router.</td>
+<td>Comprobar que los equipos están conectados a la red y pueden comunicarse entre sí.</td>
+</tr>
+<tr>
+<td>RED-02</td>
+<td>Configuración de DHCP, DNS y acceso a Internet mediante el router de la infraestructura.</td>
+<td>Comprobar que los equipos reciben correctamente su configuración de red, resuelven nombres y tienen acceso a Internet.</td>
+</tr>
+<tr>
+<td>RED-03</td>
+<td>Realización de pruebas de comunicación entre los equipos, el router y los servicios de red configurados.</td>
+<td>Verificar la comunicación entre los equipos y comprobar el funcionamiento de DHCP, DNS y acceso a Internet.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7-trazabilidad-de-seguridad-y-alta-disponibilidad">7. Trazabilidad de Seguridad y Alta Disponibilidad</h2>
+<table>
+<thead>
+<tr>
+<th>Requisito</th>
+<th>Solución implementada</th>
+<th>Comprobación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SEG-01</td>
+<td>Identificación de riesgos como malware, accesos no autorizados, pérdida de datos, fallos de equipos, ataques de red y falta de actualizaciones de seguridad.</td>
+<td>Revisar los riesgos identificados y comprobar que se han considerado las principales amenazas para la infraestructura.</td>
+</tr>
+<tr>
+<td>SEG-02</td>
+<td>Aplicación de firewall, antivirus y antimalware, actualizaciones de seguridad, copias de seguridad, control de usuarios y permisos y procedimientos de recuperación.</td>
+<td>Comprobar que las medidas de seguridad están configuradas y que las copias de seguridad y los procedimientos de recuperación funcionan correctamente.</td>
+</tr>
+<tr>
+<td>SEG-03</td>
+<td>Realización de pruebas sobre el firewall, antivirus, actualizaciones, copias de seguridad, permisos y recuperación ante fallos.</td>
+<td>Verificar que las medidas implementadas funcionan correctamente y permiten responder ante posibles incidencias.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="8-trazabilidad-de-los-requisitos-del-proyecto">8. Trazabilidad de los Requisitos del Proyecto</h2>
+<table>
+<thead>
+<tr>
+<th>Requisito</th>
+<th>Solución implementada</th>
+<th>Comprobación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TRA-01</td>
+<td>Identificación y definición de los requisitos a partir de las necesidades detectadas en la asesoría.</td>
+<td>Comprobar que las necesidades identificadas tienen asociados requisitos concretos y definidos.</td>
+</tr>
+<tr>
+<td>TRA-02</td>
+<td>Relación de cada requisito con las soluciones y tareas desarrolladas en los diferentes módulos del proyecto.</td>
+<td>Revisar la matriz para comprobar que cada requisito está relacionado con una solución y una comprobación.</td>
+</tr>
+<tr>
+<td>TRA-03</td>
+<td>Elaboración y revisión de la matriz de trazabilidad para comprobar que las necesidades quedan cubiertas por las soluciones implementadas.</td>
+<td>Verificar que todos los requisitos definidos aparecen en la matriz y que existe una solución y una comprobación asociada a cada uno.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="9-conclusion">9. Conclusión</h2>
+<p>La matriz de trazabilidad permitirá realizar un seguimiento de los requisitos definidos durante el proyecto y comprobar su relación con las soluciones implementadas.</p>
+<p>De esta forma, se podrá verificar que las necesidades identificadas en la asesoría han sido tenidas en cuenta y que cada requisito dispone de una solución y una comprobación asociada.</p>
+<p>La matriz se utilizará como referencia durante la revisión final del proyecto para comprobar el grado de cumplimiento de los requisitos establecidos.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

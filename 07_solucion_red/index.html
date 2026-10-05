@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Solución RED - Proyecto Intermodular ASIR</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Proyecto Intermodular ASIR</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../01_introduccion/" class="nav-link">Introducción</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../02_requisitos/" class="nav-link">Requisitos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../04_solucion_aso/" class="nav-link">Solución ASO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../05_solucion_asgbd/" class="nav-link">Solución ASGBD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../06_solucion_iaw/" class="nav-link">Solución IAW</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Solución RED</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../08_solucion_seguridad/" class="nav-link">Solución Seguridad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../09_trazabilidad_solucion/" class="nav-link">Solución Trazabilidad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../10_plan_implementacion/" class="nav-link">Plan de Implementación</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../06_solucion_iaw/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../08_solucion_seguridad/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#solucion-de-servicios-de-red-e-internet" class="nav-link">Solución de Servicios de Red e Internet</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#1-descripcion-de-la-solucion" class="nav-link">1. Descripción de la solución</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#2-estructura-y-direccionamiento-de-la-red" class="nav-link">2. Estructura y direccionamiento de la red</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#3-servicios-de-red-e-internet" class="nav-link">3. Servicios de red e Internet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#4-comprobacion-del-funcionamiento" class="nav-link">4. Comprobación del funcionamiento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="solucion-de-servicios-de-red-e-internet">Solución de Servicios de Red e Internet</h1>
+<h2 id="1-descripcion-de-la-solucion">1. Descripción de la solución</h2>
+<p>La solución propuesta consiste en diseñar y configurar una infraestructura de red local (LAN) para la asesoría informática que permita conectar los equipos y facilitar el funcionamiento de los servicios informáticos de la empresa.</p>
+<p>La red estará formada por 15 equipos informáticos, un switch para interconectar los equipos y un router que proporcionará la comunicación con Internet.</p>
+<p>La infraestructura utilizará IPv4 y contará con los servicios DHCP y DNS para facilitar la configuración de los equipos y la resolución de nombres dentro de la red.</p>
+<p>Esta solución permitirá disponer de una red organizada y adecuada para la comunicación entre los equipos y el funcionamiento de los servicios informáticos de la asesoría.</p>
+<h2 id="2-estructura-y-direccionamiento-de-la-red">2. Estructura y direccionamiento de la red</h2>
+<p>La red local de la asesoría utilizará una única red IPv4 para conectar los equipos y los dispositivos de red.</p>
+<p>Se utilizará la red <code>192.168.1.0/24</code>, que permitirá disponer de suficientes direcciones IP para los equipos y dispositivos de la infraestructura.</p>
+<p>La distribución inicial del direccionamiento será la siguiente:</p>
+<table>
+<thead>
+<tr>
+<th>Dispositivo</th>
+<th>Direccionamiento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Router</td>
+<td>192.168.1.1</td>
+</tr>
+<tr>
+<td>Switch</td>
+<td>192.168.1.2</td>
+</tr>
+<tr>
+<td>PC-01 a PC-15</td>
+<td>Direcciones asignadas mediante DHCP</td>
+</tr>
+<tr>
+<td>Servidor DNS</td>
+<td>Servicio proporcionado dentro de la infraestructura de red</td>
+</tr>
+</tbody>
+</table>
+<p>Los equipos utilizarán el router como puerta de enlace para acceder a otras redes e Internet.</p>
+<h2 id="3-servicios-de-red-e-internet">3. Servicios de red e Internet</h2>
+<p>La infraestructura contará con diferentes servicios de red para facilitar la comunicación entre los equipos y el acceso a los recursos necesarios.</p>
+<p>Los principales servicios serán:</p>
+<ul>
+<li><strong>DHCP:</strong> asignará automáticamente las direcciones IP a los equipos de la asesoría, evitando tener que configurar manualmente cada equipo.</li>
+<li><strong>DNS:</strong> permitirá resolver nombres de dispositivos y servicios de la red mediante sus correspondientes direcciones IP.</li>
+<li><strong>Acceso a Internet:</strong> el router proporcionará la salida de la red local hacia Internet.</li>
+</ul>
+<p>La configuración de estos servicios permitirá que los equipos puedan comunicarse entre sí y acceder a los servicios de Internet necesarios para la actividad de la asesoría.</p>
+<h2 id="4-comprobacion-del-funcionamiento">4. Comprobación del funcionamiento</h2>
+<p>Una vez configurada la infraestructura de red, se realizarán diferentes pruebas para comprobar que los equipos y los servicios funcionan correctamente.</p>
+<p>Las comprobaciones principales serán:</p>
+<ol>
+<li>Comprobar que los equipos reciben correctamente una dirección IP mediante DHCP.</li>
+<li>Comprobar que los equipos pueden comunicarse entre sí dentro de la red local.</li>
+<li>Comprobar que los equipos pueden comunicarse con el router.</li>
+<li>Comprobar que la resolución de nombres mediante DNS funciona correctamente.</li>
+<li>Comprobar que los equipos pueden acceder a Internet.</li>
+<li>Comprobar que los servicios de red configurados funcionan correctamente.</li>
+</ol>
+<p>Estas pruebas permitirán verificar que la infraestructura de red proporciona una comunicación adecuada entre los equipos y permite el acceso a los servicios necesarios para la actividad de la asesoría.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

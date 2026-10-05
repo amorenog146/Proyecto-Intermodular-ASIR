@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Introducción - Proyecto Intermodular ASIR</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Proyecto Intermodular ASIR</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Introducción</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../02_requisitos/" class="nav-link">Requisitos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../04_solucion_aso/" class="nav-link">Solución ASO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../05_solucion_asgbd/" class="nav-link">Solución ASGBD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../06_solucion_iaw/" class="nav-link">Solución IAW</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../07_solucion_red/" class="nav-link">Solución RED</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../08_solucion_seguridad/" class="nav-link">Solución Seguridad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../09_trazabilidad_solucion/" class="nav-link">Solución Trazabilidad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../10_plan_implementacion/" class="nav-link">Plan de Implementación</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../02_requisitos/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#introduccion" class="nav-link">Introducción</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#11-titulo-del-reto" class="nav-link">1.1. Título del reto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#12-contexto" class="nav-link">1.2. Contexto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#13-problematica-o-necesidad" class="nav-link">1.3. Problemática o necesidad</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#14-objetivos" class="nav-link">1.4. Objetivos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#15-interesados" class="nav-link">1.5. Interesados</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#16-administracion-de-sistemas-operativos-aso" class="nav-link">1.6. Administración de Sistemas Operativos (ASO)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#17-administracion-de-sistemas-gestores-de-bases-de-datos-asgbd" class="nav-link">1.7. Administración de Sistemas Gestores de Bases de Datos (ASGBD)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#18-implantacion-de-aplicaciones-web-iaw" class="nav-link">1.8. Implantación de Aplicaciones Web (IAW)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#19-servicios-de-red-e-internet" class="nav-link">1.9. Servicios de Red e Internet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#110-seguridad-y-alta-disponibilidad" class="nav-link">1.10. Seguridad y Alta Disponibilidad</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#111-matriz-de-trazabilidad-de-requisitos" class="nav-link">1.11. Matriz de Trazabilidad de Requisitos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="introduccion">Introducción</h1>
+<h2 id="11-titulo-del-reto">1.1. Título del reto</h2>
+<p>Diseño y administración de una infraestructura informática para una PYME de servicios informáticos (siendo una asesoría informática) en Talavera de la Reina.</p>
+<h2 id="12-contexto">1.2. Contexto</h2>
+<p>La empresa objeto de este proyecto es una asesoría informática situada en Talavera de la Reina que ofrece a pequeñas y medianas empresas servicios de mantenimiento, administración de sistemas, bases de datos, redes, aplicaciones web y soporte técnico.</p>
+<p>La empresa desarrolla su actividad en un sector competitivo, por lo que necesita disponer de una infraestructura informática adecuada que le permita gestionar sus propios sistemas y prestar sus servicios de forma organizada y eficiente.</p>
+<p>Actualmente, la empresa considera necesario mejorar su infraestructura y su composición para adaptarse a las necesidades de su actividad y poder prestar sus servicios de una forma más organizada y adecuada.</p>
+<p>Esta mejora permitirá establecer una base más adecuada para el desarrollo del proyecto.</p>
+<p>Actualmente, la empresa considera necesario mejorar su infraestructura y su composición para adaptarse a las necesidades de su actividad y poder prestar sus servicios de una forma más organizada y adecuada.</p>
+<p>Esta mejora permitirá establecer una base más adecuada para el desarrollo del proyecto.</p>
+<h2 id="13-problematica-o-necesidad">1.3. Problemática o necesidad</h2>
+<p>La asesoría informática no dispone de personal con conocimientos especializados suficientes para administrar determinadas áreas de su infraestructura informática. Como consecuencia, la administración de los sistemas y servicios resulta difícil para el personal disponible y la empresa encuentra dificultades para ampliar y gestionar adecuadamente los servicios informáticos que ofrece a sus clientes.</p>
+<h2 id="14-objetivos">1.4. Objetivos</h2>
+<h3 id="objetivo-general">Objetivo general</h3>
+<p>Mejorar y organizar la infraestructura informática de la asesoría para facilitar su administración y mantenimiento y ampliar su capacidad para ofrecer servicios informáticos a sus clientes.</p>
+<h3 id="objetivos-especificos">Objetivos específicos</h3>
+<ul>
+<li>
+<p>Mejorar la administración de los sistemas operativos utilizados por la asesoría, facilitando su gestión y mantenimiento.</p>
+</li>
+<li>
+<p>Diseñar y gestionar una base de datos que permita organizar la información necesaria para la actividad de la asesoría.</p>
+</li>
+<li>
+<p>Facilitar la implantación y administración de aplicaciones web que permitan gestionar información y mejorar los servicios ofrecidos por la asesoría.</p>
+</li>
+<li>
+<p>Mejorar la gestión de los servicios de red e Internet necesarios para el funcionamiento de la asesoría y la prestación de sus servicios.</p>
+</li>
+<li>
+<p>Mejorar la seguridad y la disponibilidad de la infraestructura informática para proteger la información y favorecer la continuidad de los servicios.</p>
+</li>
+<li>
+<p>Establecer una matriz de trazabilidad que permita relacionar los requisitos del proyecto con las soluciones implementadas y verificar su cumplimiento.</p>
+</li>
+</ul>
+<h2 id="15-interesados">1.5. Interesados</h2>
+<table>
+<thead>
+<tr>
+<th>Interesado</th>
+<th>Relación con el proyecto</th>
+<th>Necesidad principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Empleados</td>
+<td>Utilizan y administran la infraestructura y los servicios informáticos de la asesoría.</td>
+<td>Disponer de una infraestructura y unos servicios informáticos más fáciles de administrar y utilizar.</td>
+</tr>
+<tr>
+<td>Clientes</td>
+<td>Reciben los servicios informáticos proporcionados por la asesoría.</td>
+<td>Recibir servicios informáticos adecuados, disponibles y con una atención eficaz.</td>
+</tr>
+<tr>
+<td>Responsable del proyecto</td>
+<td>Planifica, coordina y supervisa el desarrollo del proyecto.</td>
+<td>Planificar, implementar y supervisar las mejoras de la infraestructura y comprobar que se cumplen los requisitos del proyecto.</td>
+</tr>
+<tr>
+<td>Dirección</td>
+<td>Toma decisiones sobre la organización y los recursos de la asesoría.</td>
+<td>Mejorar la capacidad de la empresa para gestionar sus recursos y ofrecer servicios informáticos a sus clientes.</td>
+</tr>
+</tbody>
+</table>
+<p>Los interesados identificados se tendrán en cuenta durante el desarrollo y la planificación del proyecto.</p>
+<h2 id="16-administracion-de-sistemas-operativos-aso">1.6. Administración de Sistemas Operativos (ASO)</h2>
+<h3 id="problematica">Problemática</h3>
+<p>La empresa no dispone de sistemas operativos actualizados en los equipos informáticos, por lo que necesita actualizar dichos sistemas para mantener los equipos en unas condiciones adecuadas para el desarrollo de su actividad.</p>
+<h3 id="objetivo">Objetivo</h3>
+<p>Actualizar y mejorar la gestión de los sistemas operativos de los equipos informáticos de la empresa para facilitar su administración y mantenimiento.</p>
+<h3 id="alcance">Alcance</h3>
+<p>El proyecto contemplará la actualización de los sistemas operativos de los equipos informáticos de la empresa y la mejora de su administración y mantenimiento.</p>
+<h3 id="tareas">Tareas</h3>
+<ol>
+<li>Identificar los equipos que necesitan una actualización de su sistema operativo.</li>
+<li>Planificar la actualización de los sistemas operativos de los equipos seleccionados.</li>
+<li>Comprobar posteriormente que los equipos funcionan correctamente y que pueden seguir utilizándose para la actividad de la empresa.</li>
+</ol>
+<h2 id="17-administracion-de-sistemas-gestores-de-bases-de-datos-asgbd">1.7. Administración de Sistemas Gestores de Bases de Datos (ASGBD)</h2>
+<h3 id="problematica_1">Problemática</h3>
+<p>La empresa no dispone actualmente de una base de datos que permita organizar y gestionar de forma centralizada la información necesaria para el desarrollo de su actividad.</p>
+<h3 id="objetivo_1">Objetivo</h3>
+<p>Diseñar e implementar una base de datos que permita organizar y gestionar de forma centralizada la información necesaria para la actividad de la empresa.</p>
+<h3 id="alcance_1">Alcance</h3>
+<p>El proyecto contemplará el diseño e implementación de una base de datos para organizar y gestionar la información necesaria para la actividad de la empresa, así como su administración y mantenimiento.</p>
+<h3 id="tareas_1">Tareas</h3>
+<ol>
+<li>Identificar la información que necesita gestionar la empresa.</li>
+<li>Diseñar e implementar la base de datos para organizar dicha información.</li>
+<li>Comprobar que la base de datos funciona correctamente y que permite gestionar la información necesaria.</li>
+</ol>
+<h2 id="18-implantacion-de-aplicaciones-web-iaw">1.8. Implantación de Aplicaciones Web (IAW)</h2>
+<h3 id="problematica_2">Problemática</h3>
+<p>La asesoría no dispone actualmente de una aplicación web que permita gestionar de forma organizada la información relacionada con sus clientes y los servicios que ofrece.</p>
+<h3 id="objetivo_2">Objetivo</h3>
+<p>Diseñar e implementar una aplicación web que permita gestionar de forma organizada la información relacionada con los clientes y los servicios ofrecidos por la asesoría.</p>
+<h3 id="alcance_2">Alcance</h3>
+<p>El proyecto contemplará el diseño e implementación de una aplicación web para gestionar la información de los clientes y los servicios ofrecidos por la asesoría, facilitando su consulta y administración.</p>
+<h3 id="tareas_2">Tareas</h3>
+<ol>
+<li>Identificar la información que debe gestionar la aplicación web, como clientes y servicios.</li>
+<li>Diseñar e implementar la aplicación web para permitir la gestión de dicha información.</li>
+<li>Comprobar el funcionamiento de la aplicación web y verificar que permite consultar y administrar correctamente la información.</li>
+</ol>
+<h2 id="19-servicios-de-red-e-internet">1.9. Servicios de Red e Internet</h2>
+<h3 id="problematica_3">Problemática</h3>
+<p>La asesoría necesita disponer de una infraestructura de red y de servicios de Internet adecuadamente configurados para permitir la comunicación entre sus equipos y el funcionamiento de los servicios informáticos que utiliza y ofrece.</p>
+<h3 id="objetivo_3">Objetivo</h3>
+<p>Diseñar y configurar los servicios de red e Internet necesarios para facilitar la comunicación entre los equipos de la asesoría y garantizar el funcionamiento adecuado de sus servicios informáticos.</p>
+<h3 id="alcance_3">Alcance</h3>
+<p>El proyecto contemplará la configuración de la infraestructura de red y de los servicios de Internet necesarios para la comunicación entre los equipos de la asesoría y para el funcionamiento de sus servicios informáticos.</p>
+<h3 id="tareas_3">Tareas</h3>
+<ol>
+<li>Diseñar la infraestructura de red necesaria para la asesoría.</li>
+<li>Configurar los servicios de red e Internet necesarios para la comunicación y el funcionamiento de los servicios informáticos.</li>
+<li>Comprobar el funcionamiento de la red y de los servicios configurados, verificando la comunicación entre los equipos.</li>
+</ol>
+<h2 id="110-seguridad-y-alta-disponibilidad">1.10. Seguridad y Alta Disponibilidad</h2>
+<h3 id="problematica_4">Problemática</h3>
+<p>La asesoría necesita mejorar la seguridad de su infraestructura informática y disponer de medidas que permitan mantener sus servicios disponibles ante posibles fallos o incidencias.</p>
+<h3 id="objetivo_4">Objetivo</h3>
+<p>Mejorar la seguridad de la infraestructura informática de la asesoría y establecer medidas que permitan mantener la disponibilidad de sus servicios ante posibles fallos o incidencias.</p>
+<h3 id="alcance_4">Alcance</h3>
+<p>El proyecto contemplará la aplicación de medidas de seguridad y disponibilidad sobre la infraestructura informática de la asesoría para proteger sus sistemas y servicios y reducir el impacto de posibles fallos o incidencias.</p>
+<h3 id="tareas_4">Tareas</h3>
+<ol>
+<li>Identificar los principales riesgos de seguridad que pueden afectar a la infraestructura informática de la asesoría.</li>
+<li>Aplicar medidas de seguridad y disponibilidad para proteger los sistemas y servicios.</li>
+<li>Comprobar el funcionamiento de las medidas implementadas y verificar que los servicios pueden mantenerse disponibles ante posibles incidencias.</li>
+</ol>
+<h2 id="111-matriz-de-trazabilidad-de-requisitos">1.11. Matriz de Trazabilidad de Requisitos</h2>
+<h3 id="problematica_5">Problemática</h3>
+<p>La asesoría necesita establecer una relación clara entre las necesidades identificadas, los requisitos del proyecto y las soluciones implementadas para poder comprobar que los objetivos planteados se cumplen.</p>
+<h3 id="objetivo_5">Objetivo</h3>
+<p>Establecer una matriz de trazabilidad que permita relacionar las necesidades y requisitos del proyecto con las soluciones y tareas desarrolladas, facilitando la comprobación de su cumplimiento.</p>
+<h3 id="alcance_5">Alcance</h3>
+<p>El proyecto contemplará la elaboración de una matriz de trazabilidad que relacione las necesidades y requisitos definidos con las soluciones y tareas desarrolladas en los diferentes módulos del proyecto.</p>
+<h3 id="tareas_5">Tareas</h3>
+<ol>
+<li>Identificar y definir los requisitos del proyecto a partir de las necesidades de la asesoría.</li>
+<li>Relacionar cada requisito con las soluciones y tareas desarrolladas en los diferentes módulos.</li>
+<li>Comprobar la trazabilidad de los requisitos para verificar que las necesidades planteadas quedan cubiertas por las soluciones implementadas.</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
